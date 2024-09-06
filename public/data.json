@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Camry New",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 40000,
+    "miiles": 20,
+    "fuel": "petrol",
+    "transmission": "Automatic"
+  },
+  {
+    "id": 2,
+    "name": "T- Cross - 2023",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 15000,
+    "miiles": 15,
+    "fuel": "petrol",
+    "transmission": "CVT"
+  }
+]
