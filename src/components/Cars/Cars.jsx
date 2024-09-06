@@ -27,7 +27,7 @@ function Cars() {
         </h2>
       </div>
       {/* car card components */}
-      <div className="flex flex-wrap pt-8">
+      <div className="flex flex-wrap pt-8 gap-8">
         {value?.map((item, index) => {
           return (
             <div
