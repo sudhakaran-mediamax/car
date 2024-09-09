@@ -25,7 +25,10 @@ function Counter() {
       <div className="flex flex-col md:flex-row dark:text-white md:gap-12">
         {counts.map((counter, index) => {
           return (
-            <div className="w-full md:w-[50%] lg:w-[25%] text-center">
+            <div
+              className="w-full md:w-[50%] lg:w-[25%] text-center"
+              key={index}
+            >
               <CountUp
                 end={counter.count}
                 enableScrollSpy={true}

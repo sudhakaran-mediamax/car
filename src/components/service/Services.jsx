@@ -30,7 +30,7 @@ function Services() {
             >
               <div className="flex flex-col-reverse lg:flex-row justify-between">
                 <div className="">
-                  <h2 className="text-2xl lg:text-3xl max-w-[250px] leading-normal lg:leading-loose capitalize">
+                  <h2 className="text-2xl lg:text-3xl max-w-[250px] leading-normal capitalize">
                     {item.title}
                   </h2>
                   <p className="max-w-[350px] my-4 leading-relaxed">
