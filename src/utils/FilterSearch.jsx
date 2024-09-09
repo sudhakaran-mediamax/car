@@ -14,8 +14,8 @@ import { CgSearch } from "react-icons/cg";
 
 function FilterSearch() {
   return (
-    <div className="flex items-center text-black w-full justify-around h-full">
-      <NavigationMenu className="w-[25%]">
+    <div className="flex flex-col items-center text-black w-full justify-around h-fit bg-white lg:flex-row">
+      <NavigationMenu className="lg:w-[25%] ">
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black hover:text-primary font-light">

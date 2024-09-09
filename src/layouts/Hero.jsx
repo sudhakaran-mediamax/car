@@ -14,7 +14,7 @@ function Hero() {
           <p className="text-5xl font-semibold tracking-wide">
             Fast, Simple and Easy
           </p>
-          <div className="mt-8 w-[50%] h-[60px] bg-white rounded-lg text-black dark:text-white">
+          <div className="mt-8 w-[50%] h-[60px] flex bg-white items-center rounded-lg text-black dark:text-white">
             <FilterSearch />
           </div>
         </div>

@@ -13,13 +13,18 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        sm: "600px",
+        md: "728px",
+        lg: "984px",
+        xl: "1280px",
+        "2xl": "1380px",
       },
     },
     extend: {
       colors: {
         default: "#405FF2",
         primary: "#405FF2",
+        darkbg: "#171c30",
       },
       keyframes: {
         "accordion-down": {

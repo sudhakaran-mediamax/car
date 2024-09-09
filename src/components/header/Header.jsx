@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -15,22 +15,35 @@ const menuLinks = {
   Blog: ["Links3", "Link4"],
   Pages: ["Links3", "Link4"],
 };
+import { useSelector, useDispatch } from "react-redux";
+import { toggleMode } from "../../reduxslicers/darkModeSlice";
+import { Switch } from "@/components/ui/switch";
+
 function Header() {
+  const dispatch = useDispatch();
+  const isDarkMode = useSelector((state) => state.darkMode.isDarkMode);
+
+  useEffect(() => {
+    document.body.classList.toggle("dark", isDarkMode);
+  }, [isDarkMode]);
+
   return (
     <header className="absolute top-0 left-0 py-4 z-10 w-full">
       <nav className="container flex justify-between items-center">
-        <div className="flex gap-3 items-center">
+        <div className="flex gap-3 w-full justify-between lg:w-fit ">
           {/* menu lines */}
-          <div className="flex flex-col gap-2">
-            <span className="block w-8 h-[1px] bg-white"></span>
-            <span className="block w-5 h-[1px] bg-white ms-auto"></span>
+          <div className="flex items-center gap-2">
+            <div className="flex flex-col gap-2">
+              <span className="block w-8 h-[1px] bg-white"></span>
+              <span className="block w-5 h-[1px] bg-white ms-auto"></span>
+            </div>
+            <p className="text-white font-light">Menu</p>
           </div>
-          <p className="text-white font-light">Menu</p>
-          <p className="uppercase font-medium text-white text-2xl ms-2 tracking-wide">
+          <p className="uppercase font-medium text-white text-2xl ms-2 tracking-wide ">
             Boxcars
           </p>
         </div>
-        <div className="flex gap-3 items-center">
+        <div className="hidden gap-3 items-center lg:flex">
           {Object.keys(menuLinks).map((category) => (
             <NavigationMenu key={category}>
               <NavigationMenuList>
@@ -59,6 +72,7 @@ function Header() {
           >
             Contact
           </a>
+          <Switch onClick={() => dispatch(toggleMode())} />
         </div>
       </nav>
     </header>

@@ -4,17 +4,79 @@
     "name": "Toyota Camry New",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
     "price": 40000,
-    "miiles": 20,
+    "miles": 20,
     "fuel": "petrol",
-    "transmission": "Automatic"
+    "transmission": "Automatic",
+    "link": ""
   },
   {
     "id": 2,
     "name": "T- Cross - 2023",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
     "price": 15000,
-    "miiles": 15,
+    "miles": 15,
     "fuel": "petrol",
-    "transmission": "CVT"
+    "transmission": "CVT",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "name": "C- Cross - 2023",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 150000,
+    "miles": 50,
+    "fuel": "petrol",
+    "transmission": "Automatic",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "name": "Ford Transit - 2021",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 22000,
+    "miles": 2500,
+    "fuel": "Diesel",
+    "transmission": "Manual",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "name": "T- Cross - 2023",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 15000,
+    "miles": 15,
+    "fuel": "petrol",
+    "transmission": "CVT",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "name": "C- Cross - 2023",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 150000,
+    "miles": 50,
+    "fuel": "petrol",
+    "transmission": "Automatic",
+    "link": ""
+  },
+  {
+    "id": 7,
+    "name": "T- Cross - 2023",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 15000,
+    "miles": 15,
+    "fuel": "petrol",
+    "transmission": "CVT",
+    "link": ""
+  },
+  {
+    "id": 8,
+    "name": "C- Cross - 2023",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae, error veniam autem earum consectetur officia, voluptatum maxime sunt velit.",
+    "price": 150000,
+    "miles": 50,
+    "fuel": "petrol",
+    "transmission": "Automatic",
+    "link": ""
   }
 ]
