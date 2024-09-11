@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import demoPic from "/demo.jpg";
 function Demo() {
   return (
-    <div className="container mx-auto py-28">
+    <div className="container mx-auto py-14 md:py-28">
       <div className="flex flex-col lg:flex-row justify-between">
         <div className="w-full lg:w-[600px] h-[600px] rounded-xl overflow-hidden ">
           <img src={demoPic} alt="" className="w-full h-full" />

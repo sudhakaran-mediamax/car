@@ -28,7 +28,7 @@ const offers = [
 
 function Offers() {
   return (
-    <div className="container py-28">
+    <div className="container py-14 md:py-28">
       <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-0">
         <div className="w-full lg:w-[50%]">
           <h2 className="text-3xl lg:text-4xl font-semibold max-w-[350px] tracking-wide dark:text-white">

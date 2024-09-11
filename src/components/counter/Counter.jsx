@@ -21,8 +21,8 @@ const counts = [
 
 function Counter() {
   return (
-    <div className="container mx-auto py-28 bottom-px border-black/20">
-      <div className="flex flex-col md:flex-row dark:text-white md:gap-12">
+    <div className="container mx-auto py-14 md:py-28 bottom-px border-black/20">
+      <div className="flex flex-col md:flex-row dark:text-white gap-12">
         {counts.map((counter, index) => {
           return (
             <div

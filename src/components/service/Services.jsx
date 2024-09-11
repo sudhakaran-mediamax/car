@@ -23,7 +23,7 @@ function Services() {
         {services.map((item, index) => {
           return (
             <div
-              className={`w-full lg:w-[50%] px-16 py-20 bg-[#e9f2ff] rounded-lg text-black ${
+              className={`w-full lg:w-[50%] px-8 py-10  md:px-16 md:py-20 bg-[#e9f2ff] rounded-lg text-black ${
                 index === 1 && "bg-[#ffe9f3]"
               }`}
               key={index}
