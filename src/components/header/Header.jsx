@@ -10,10 +10,10 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 const menuLinks = {
-  Home: ["Links1", "Links2"],
-  Listings: ["Links3", "Link4"],
-  Blog: ["Links3", "Link4"],
-  Pages: ["Links3", "Link4"],
+  Home: ["Link", "Link"],
+  Listings: ["Link", "Link"],
+  Blog: ["Link", "Link"],
+  Pages: ["Link", "Link"],
 };
 import { useSelector, useDispatch } from "react-redux";
 import { toggleMode } from "../../reduxslicers/darkModeSlice";
