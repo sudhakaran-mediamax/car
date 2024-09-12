@@ -65,7 +65,7 @@ function Footer() {
                 return (
                   <Link
                     to={menulink.link}
-                    className="text-sm font-light"
+                    className="text-sm font-light hover:text-white/70"
                     key={index}
                   >
                     {menulink.name}
@@ -79,7 +79,7 @@ function Footer() {
                 return (
                   <Link
                     to={qlinks.link}
-                    className="text-sm font-light"
+                    className="text-sm font-light hover:text-white/70"
                     key={index}
                   >
                     {qlinks.name}
@@ -93,7 +93,7 @@ function Footer() {
                 return (
                   <Link
                     to={brands.link}
-                    className="text-sm font-light"
+                    className="text-sm font-light hover:text-white/70"
                     key={index}
                   >
                     {brands.name}
@@ -107,7 +107,7 @@ function Footer() {
                 return (
                   <Link
                     to={type.link}
-                    className="text-sm font-light"
+                    className="text-sm font-light hover:text-white/70"
                     key={index}
                   >
                     {type.name}
@@ -119,7 +119,7 @@ function Footer() {
               <h4 className="text-xl mb-3">Our Mobile App</h4>
               <div className="flex gap-2 bg-slate-800 w-fit rounded-lg px-4 py-2">
                 <div className="flex justify-center items-center">
-                  <FaApple className="w-[30px] h-[30px]" />
+                  <FaApple className="w-[30px] h-[30px] " />
                 </div>
                 <div className="">
                   <p className="text-xs font-extralight">download on the</p>
@@ -136,12 +136,12 @@ function Footer() {
                 </div>
               </div>
               <div className="">
-                <h4 className="text-xl mb-3">connect with us</h4>
+                <h4 className="text-xl mb-3">Connect with us</h4>
                 <div className="flex gap-6">
-                  <FaFacebookF />
-                  <FaXTwitter />
-                  <FaInstagram />
-                  <FaLinkedinIn />
+                  <FaFacebookF className="hover:text-primary cursor-pointer" />
+                  <FaXTwitter className="hover:text-primary cursor-pointer" />
+                  <FaInstagram className="hover:text-primary cursor-pointer" />
+                  <FaLinkedinIn className="hover:text-primary cursor-pointer" />
                 </div>
               </div>
             </div>
